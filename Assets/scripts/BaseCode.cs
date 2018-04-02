@@ -4,15 +4,6 @@ using Com.Mygame;
 
 namespace Com.Mygame {  
 	public enum State { BSTART, BSEMOVING, BESMOVING, BEND, WIN, LOSE };  
-	/* 
-     * BSTART:  boat stops on start shore 
-     * BEND:    boat stops on end shore 
-     * BSEMOVING:   boat is moving from start shore to end shore 
-     * BESMOVING:   boat is moving from end shore to start shore 
-     * WIN:     win 
-     * LOSE:    lose 
-     */  
-
 	public interface IUserActions {  
 		void priestSOnB();  
 		void priestEOnB();  
